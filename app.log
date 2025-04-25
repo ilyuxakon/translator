@@ -1,0 +1,80 @@
+2025-04-25 13:47:45,767 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-25 13:47:45,767 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:48:24,169 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-25 13:48:24,170 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:49:19,121 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:49:19,122 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:49:43,826 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:49:43] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2025-04-25 13:49:57,658 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:49:57,659 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:49:58,433 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:49:58] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2025-04-25 13:50:10,883 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:50:10,884 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:50:10,959 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:50:10] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2025-04-25 13:50:29,794 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:50:29,794 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:50:36,409 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:50:36] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2025-04-25 13:51:25,759 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:51:25,760 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:51:55,585 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:51:55,586 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:52:46,538 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:52:46] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2025-04-25 13:56:09,017 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:56:09,018 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:56:23,511 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:56:23,511 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:56:24,625 INFO root Request: {'meta': {'locale': 'ru-RU', 'timezone': 'UTC', 'client_id': 'ru.yandex.searchplugin/7.16 (none none; android 4.4.2)', 'interfaces': {'screen': {}, 'payments': {}, 'account_linking': {}}}, 'session': {'message_id': 1, 'session_id': '1a536c58-4235-412d-8e3b-5a78c6bf4497', 'skill_id': '359f1724-cfb9-4157-8ae3-3a183defc5d0', 'user': {'user_id': '6FA304B83EDEFFB1AD76F24E89449A2F686FDDC3F1C40D4B58392DA24431C8A7'}, 'application': {'application_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'new': False, 'user_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'request': {'command': 'переведи слово стакан', 'original_utterance': 'ѕереведи слово стакан', 'nlu': {'tokens': ['переведи', 'слово', 'стакан'], 'entities': [], 'intents': {}}, 'markup': {'dangerous_context': False}, 'type': 'SimpleUtterance'}, 'version': '1.0'}
+2025-04-25 13:56:24,625 ERROR server Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\my_code\code\yandex\2\Alisa2\переводчик\server.py", line 28, in main
+    handle_dialog(response, request.json)
+  File "e:\my_code\code\yandex\2\Alisa2\переводчик\server.py", line 39, in handle_dialog
+    translation = translator.translate(message)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\site-packages\translate\translate.py", line 44, in translate
+    text_list = wrap(text, TRANSLATION_API_MAX_LENGHT, replace_whitespace=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\textwrap.py", line 384, in wrap
+    return w.wrap(text)
+           ^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\textwrap.py", line 356, in wrap
+    chunks = self._split_chunks(text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\textwrap.py", line 342, in _split_chunks
+    text = self._munge_whitespace(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python312\Lib\textwrap.py", line 151, in _munge_whitespace
+    text = text.expandtabs(self.tabsize)
+           ^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'expandtabs'
+2025-04-25 13:56:24,639 INFO werkzeug 127.0.0.1 - - [25/Apr/2025 13:56:24] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+2025-04-25 13:56:35,598 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:56:35,598 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:56:38,326 INFO root Request: {'meta': {'locale': 'ru-RU', 'timezone': 'UTC', 'client_id': 'ru.yandex.searchplugin/7.16 (none none; android 4.4.2)', 'interfaces': {'screen': {}, 'payments': {}, 'account_linking': {}}}, 'session': {'message_id': 1, 'session_id': '1a536c58-4235-412d-8e3b-5a78c6bf4497', 'skill_id': '359f1724-cfb9-4157-8ae3-3a183defc5d0', 'user': {'user_id': '6FA304B83EDEFFB1AD76F24E89449A2F686FDDC3F1C40D4B58392DA24431C8A7'}, 'application': {'application_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'new': False, 'user_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'request': {'command': 'переведи слово стакан', 'original_utterance': 'ѕереведи слово стакан', 'nlu': {'tokens': ['переведи', 'слово', 'стакан'], 'entities': [], 'intents': {}}, 'markup': {'dangerous_context': False}, 'type': 'SimpleUtterance'}, 'version': '1.0'}
+2025-04-25 13:57:11,966 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-04-25 13:57:11,967 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-04-25 13:57:16,148 INFO root Request: {'meta': {'locale': 'ru-RU', 'timezone': 'UTC', 'client_id': 'ru.yandex.searchplugin/7.16 (none none; android 4.4.2)', 'interfaces': {'screen': {}, 'payments': {}, 'account_linking': {}}}, 'session': {'message_id': 1, 'session_id': '1a536c58-4235-412d-8e3b-5a78c6bf4497', 'skill_id': '359f1724-cfb9-4157-8ae3-3a183defc5d0', 'user': {'user_id': '6FA304B83EDEFFB1AD76F24E89449A2F686FDDC3F1C40D4B58392DA24431C8A7'}, 'application': {'application_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'new': False, 'user_id': 'CD64D0E995CB475BA866373B4200404A9CBBA950402D9E99B8FBB6620E6B639E'}, 'request': {'command': 'переведи слово стакан', 'original_utterance': 'ѕереведи слово стакан', 'nlu': {'tokens': ['переведи', 'слово', 'стакан'], 'entities': [], 'intents': {}}, 'markup': {'dangerous_context': False}, 'type': 'SimpleUtterance'}, 'version': '1.0'}
